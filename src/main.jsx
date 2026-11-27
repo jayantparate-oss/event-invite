@@ -164,7 +164,7 @@ function App(){
   The Secret<br />
   of <em>Success</em>
   <span className="hero-event-line">
-    Today at 7:30 PM in Curious Junior<<br/>live MEGA EVENT
+    Today at 7:30 PM in Curious Junior<br/>live MEGA EVENT
   </span>
 </motion.h1>
           <p className="hero-sub">Every success story has a secret.<br/>Are you ready to discover it?</p>
