@@ -164,14 +164,14 @@ function App(){
   The Secret<br />
   of <em>Success</em>
   <span className="hero-event-line">
-    Today at 7:30 PM in Curious Juniour live MEGA EVENT
+    Today at 7:30 PM in Curious Junior<<br/>live MEGA EVENT
   </span>
 </motion.h1>
           <p className="hero-sub">Every success story has a secret.<br/>Are you ready to discover it?</p>
           <div className="hero-actions"><button className="btn primary" ref={flashButton} onClick={()=>setFlash(true)}><Play size={16} fill="currentColor"/>Watch thriller backstory</button><button className="btn secondary" onClick={()=>scrollToSection('garage')}><CarFront size={18}/>Enter the garage</button></div>
         </div>
         <div className="hero-footer">
-          <div className="hero-event"><CalendarDays size={17}/><span>27 NOV 2026 <b>·</b> 7:30 PM IST</span></div>
+          <div className="hero-event"><CalendarDays size={17}/><span>27th NOV 2026 <b>·</b> 7:30 PM IST</span></div>
           <button className="explore" onClick={()=>scrollToSection('garage')}><ArrowDown size={15}/>Scroll to explore</button>
           <div className="hero-location"><MapPin size={16}/>NEON COAST</div>
         </div>
