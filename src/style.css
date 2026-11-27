@@ -39,6 +39,14 @@ em{font-style:normal;color:var(--hot)}
 .hero h1{font:800 clamp(78px,9.35vw,168px)/.82 var(--display);letter-spacing:-.037em;margin:25px 0 27px;text-shadow:0 5px 26px #140902aa}
 .hero h1 em{color:#ff672c;background:linear-gradient(175deg,#ff884b 5%,#ff5b22 86%);background-clip:text;-webkit-text-fill-color:transparent;text-shadow:none}
 .hero-sub{font-size:clamp(18px,1.53vw,24px);line-height:1.42;color:#e0cfc2;font-weight:500}
+.hero-event-line {
+  display: block;
+  max-width: 30ch;
+  margin-top: 16px;
+  font-size: clamp(24px, 4vw, 52px);
+  line-height: 1.1;
+  letter-spacing: 0;
+}
 .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 17px;font:700 13px var(--mono);letter-spacing:.01em;text-transform:uppercase;transition:background .2s,border-color .2s,box-shadow .2s,transform .2s}
 .btn svg{flex:none}
