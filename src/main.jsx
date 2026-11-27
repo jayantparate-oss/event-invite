@@ -156,7 +156,17 @@ function App(){
         <div className="hero-image"/><div className="hero-shade"/>
         <div className="hero-content">
           <Tech icon={Crosshair}>AN INTERACTIVE MISSION</Tech>
-          <motion.h1 initial={reduced?false:{opacity:0,y:14}} animate={{opacity:1,y:0}} transition={{duration:.65}}>THE SECRET<br/>OF <em>SUCCESS</em></motion.h1>
+          <motion.h1
+  initial={reduced ? false : { opacity: 0, y: 14 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.65 }}
+>
+  The Secret<br />
+  of <em>Success</em>
+  <span className="hero-event-line">
+    Today at 7:30 PM in Curious Juniour live MEGA EVENT
+  </span>
+</motion.h1>
           <p className="hero-sub">Every success story has a secret.<br/>Are you ready to discover it?</p>
           <div className="hero-actions"><button className="btn primary" ref={flashButton} onClick={()=>setFlash(true)}><Play size={16} fill="currentColor"/>Watch thriller backstory</button><button className="btn secondary" onClick={()=>scrollToSection('garage')}><CarFront size={18}/>Enter the garage</button></div>
         </div>
